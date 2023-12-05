@@ -1,7 +1,7 @@
-# Video Maker 
+# Create a Video Maker
 
 ## Description
-Creating a video maker
+This bot will create a video for you.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,21 +12,21 @@ Creating a video maker
 - [Questions](#questions)
 
 ## Installation
-Unzip folder, then download to desktop
+Download and unzip file. 
 
 ## Usage
-10
+Downloading to create a video for project
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 This application is covered by the [MIT](https://opensource.org/licenses/MIT) license.
 
 ## Contributing
-None
+Do not copy entire folder and claim as your own. Credit me in the video.
 
 ## Tests
-Complete video maker
+npm run
 
 ## Questions
 GitHub Profile: [Canes2023](https://github.com/Canes2023)
-Email: davidrock0729@gmail.com
+Email: dxc1449@miami.edu

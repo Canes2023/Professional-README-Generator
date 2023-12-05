@@ -66,6 +66,25 @@ Email: ${data.email}
 `;
 }
 
+// Function to save README content to a file
+async function saveToFile(readmeContent) {
+  const folderPath = 'content/ReadMe Files'; // Specify the folder path
+  const filename = 'README.md'; // Specify the filename
+
+  // Ensure the folder exists
+  try {
+    await fs.mkdir(folderPath, { recursive: true });
+  } catch (error) {
+    console.error('Error creating folder:', error);
+    throw error;
+  }
+
+  // Save README content to the specified folder and filename
+  const filePath = `${folderPath}/${filename}`;
+  await fs.writeFile(filePath, readmeContent);
+  console.log(`${filePath} file generated successfully!`);
+}
+
 // Function to prompt the user for information
 async function promptUser() {
   return inquirer.prompt([
@@ -116,15 +135,6 @@ async function promptUser() {
       message: 'Enter your email address:',
     },
   ]);
-}
-
-// Function to save README content to a file
-async function saveToFile(readmeContent) {
-  const timestamp = new Date().toISOString().replace(/:/g, '-').slice(0, -5); // Generates a timestamp without colons
-  const filename = `README_${timestamp}.md`;
-
-  await fs.writeFile(filename, readmeContent);
-  console.log(`${filename} file generated successfully!`);
 }
 
 // Main function
