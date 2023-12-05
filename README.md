@@ -4,6 +4,8 @@ For this project, I was tasked with creating a ReadMe Generator. My generator wi
 
 Partial Code provided by Instructor. Gitignore file located in the content folder, generateMarkdown mjs file located in utils folder, and package json and package lock json files located in the root directory. 
 
-Screenshot: 
 
-Video URL: 
+Screenshot: ![readme project](https://github.com/Canes2023/README-Generator/assets/145178643/7202dc2a-1d11-46db-8cd7-b1c7e0eb33c4)
+
+
+Video URL: https://drive.google.com/file/d/1eLBMQT7eNhSqGdiJY4BRPysBz-CBzsFK/view
